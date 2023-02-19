@@ -16,3 +16,20 @@ const me = {
   favThreeFoods: ['rice', 'pasta', 'lasagna']
 };
 console.log('A little about me:', me);
+
+/* 2. Accessing object properties.
+  - Create a variable called fullName 
+  - Use the firstName & lastName properties of the object you 
+    created above to set its value. 
+  - Console.log fullName
+*/
+const fullName = me.firstName + ' ' + me.lastName;
+console.log('My name is: ', fullName);
+
+
+/* 3. Nested arrays
+  - Console.log your first favorite food
+  - Console.log your last favorite food 
+*/
+  console.log('First favorite food is:', me.favThreeFoods[0]);
+  console.log('Last favorite food is:', me.favThreeFoods[2]);

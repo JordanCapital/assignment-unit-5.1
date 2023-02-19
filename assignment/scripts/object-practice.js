@@ -17,6 +17,7 @@ const me = {
 };
 console.log('A little about me:', me);
 
+
 /* 2. Accessing object properties.
   - Create a variable called fullName 
   - Use the firstName & lastName properties of the object you 
@@ -33,3 +34,24 @@ console.log('My name is: ', fullName);
 */
   console.log('First favorite food is:', me.favThreeFoods[0]);
   console.log('Last favorite food is:', me.favThreeFoods[2]);
+
+
+/* 4. Change a property of an existing object.
+  - Console.log your current shoe count.
+  - Guess what?! You just got a new pair of shoes!!!
+  - Set your object's shoeCount to be what it was plus 1
+  - Console.log your updated shoe count. 
+*/
+  console.log('current shoe size:', me.shoeSize);
+  me.shoeSize = me.shoeSize + 1;
+  console.log('New Shoe size:', me.shoeSize);
+
+/* 5. Add a new property to an existing object.
+  - Add a 'favoriteColor' to your existing object
+  - Do this the same way you updated the variable above
+  - Cool huh? It works, even though it wasn't there before
+  - Console.log your object
+*/
+
+me.favoriteColor = "black";
+console.log('new object:', me);
